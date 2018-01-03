@@ -13,7 +13,10 @@ class JobsController < ApplicationController
         job = Job.create(job_params)
         p job
         redirect_to jobs_path
-      end
+    end
+
+    def edit
+    end
       
       private
       
